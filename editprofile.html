@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimuse Edit Profile</title>
     <link rel="stylesheet" href="css/editprofile.css">
+    <link rel="stylesheet" href="css/profile.css">
     <!-- <script src="script.js"></script> -->
 </head>
 
@@ -22,7 +23,7 @@
                 <span>Write</span>
             </div>
             <img src="images/notification-bing.png" alt="notification-bing">
-            <img src="images/Frame 2.png" alt="user-image">
+            <a href="profile.html"> <img src="images/Frame 2.png" alt="user-image"></a>
         </div>
     </nav>
 
@@ -30,11 +31,13 @@
         <aside>
             <div class="options">
                 <ul class="up-options">
-                    <li><a href="#"><span><img src="images/house.png" alt="house"></span>Home</a></li>
-                    <li><a href="#"><span><img src="images/edit.png" alt="house"></span>Explore</a></li>
-                    <li><a href="#"><span><img src="images/profile-circle.png" alt="profile-circle"></span>Profile</a>
+                    <li><a href="home.html"><span><img src="images/house.png" alt="house"></span>Home</a></li>
+                    <li><a href="explore.html"><span><img src="images/edit.png" alt="house"></span>Explore</a></li>
+                    <li><a href="profile.html"><span><img src="images/profile-circle.png"
+                                    alt="profile-circle"></span>Profile</a>
                     </li>
-                    <li><a href="#"><span><img src="images/add-square.png" alt="add-square"></span>Create</a></li>
+                    <li><a href="home.html"><span><img src="images/add-square.png" alt="add-square"></span>Create</a>
+                    </li>
                     <li><a href="#"><span><img src="images/notification-bing.png"
                                     alt="notification"></span>Notification</a>
                     </li>
@@ -43,7 +46,8 @@
                     <li><a href="#"><span><img src="images/Group 35.png" alt="setting"></span>Settings</a></li>
                 </ul>
                 <ul class="down-opt">
-                    <li><a href="#"><span><img src="images/logout.png" alt="logout"></span>Logout</a></li>
+                    <li><a href="landingPage.html"><span><img src="images/logout.png" alt="logout"></span>Logout</a>
+                    </li>
                 </ul>
             </div>
             <div class="user">
@@ -72,7 +76,8 @@
                                 <button class="edit-pics" onclick="document.getElementById('file-input').click();">
                                     <img src="/images/profile-edit.png" alt="camera edit icon">
                                 </button>
-                                <input type="file" id="file-input" style="display: none;" onchange="previewImage(event)">
+                                <input type="file" id="file-input" style="display: none;"
+                                    onchange="previewImage(event)">
                             </div>
                         </div>
 
@@ -94,64 +99,162 @@
                             <span class="char-count">0/200</span>
                         </div>
                         <div class="profile-buttons">
-                            <button class="btn save">Save</button>
-                            <button class="btn cancel">Cancel</button>
+                            <a href="profile.html"> <button class="btn save">Save</button></a>
+                            <a href="profile.html"><button class="btn cancel">Cancel</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <script>
+        <aside class="profile-aside">
+            <div class="feeds-right feeds-right-2 profile-right">
+                <h1>Your communities</h1>
+                <div class="topics follow">
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <img src="images/arrow-circle-right.png" alt="arrow-circle-right">
+                    </div>
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <img src="images/arrow-circle-right.png" alt="arrow-circle-right">
+                    </div>
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <img src="images/arrow-circle-right.png" alt="arrow-circle-right">
+                    </div>
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <img src="images/arrow-circle-right.png" alt="arrow-circle-right">
+                    </div>
+                </div>
+                <div class="transparent-btn"> <button class="small-btn start-blog small-btn-transparent">More</button>
+                </div>
+            </div>
+
+            <div class="feeds-right feeds-right-2 profile-right">
+                <h1>Suggestions</h1>
+                <div class="topics follow profile-aside-down">
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <button class="small-btn">Follow</button>
+                    </div>
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <button class="small-btn">Follow</button>
+                    </div>
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <button class="small-btn">Follow</button>
+                    </div>
+                    <div class="feed-profile">
+                        <div class="user-post">
+                            <img src="images/chineye (1).png" alt="user">
+                            <div>
+                                <h3 class="text-sm">Freelancers NG</h3>
+                                <p class="text-xs">@freelancers-ng</p>
+                            </div>
+                        </div>
+                        <button class="small-btn">Follow</button>
+                    </div>
+                </div>
+                <div class="transparent-btn"> <button class="small-btn start-blog small-btn-transparent">More</button>
+                </div>
+            </div>
+        </aside>
+        <!-- <script>
             // Function to handle image preview
             function previewImage(event) {
                 const file = event.target.files[0];
                 if (file) {
                     const reader = new FileReader();
-                    reader.onload = function(e) {
+                    reader.onload = function (e) {
                         document.getElementById('profile-picture').src = e.target.result;
                     };
                     reader.readAsDataURL(file);
                 }
             }
-        
+
             // Function to update character count
             function updateCharCount(input, countElement, max) {
                 countElement.textContent = `${input.value.length}/${max}`;
             }
-        
+
             // Attach event listeners to inputs for character counting
-            document.getElementById('name').addEventListener('input', function() {
+            document.getElementById('name').addEventListener('input', function () {
                 updateCharCount(this, document.getElementById('name-char-count'), 50);
             });
-        
-            document.getElementById('email').addEventListener('input', function() {
+
+            document.getElementById('email').addEventListener('input', function () {
                 updateCharCount(this, document.getElementById('email-char-count'), 50);
             });
-        
-            document.getElementById('bio').addEventListener('input', function() {
+
+            document.getElementById('bio').addEventListener('input', function () {
                 updateCharCount(this, document.getElementById('bio-char-count'), 200);
             });
-        
+
             // Save button functionality
-            document.querySelector('.save-btn').addEventListener('click', function() {
+            document.querySelector('.save-btn').addEventListener('click', function () {
                 alert('Save button clicked! Implement your save functionality here.');
             });
-        
+
             // Cancel button functionality
-            document.querySelector('.cancel-btn').addEventListener('click', function() {
+            document.querySelector('.cancel-btn').addEventListener('click', function () {
                 // Clear all input fields
                 document.getElementById('name').value = '';
                 document.getElementById('email').value = '';
                 document.getElementById('bio').value = '';
-                
+
                 // Reset character counts
                 updateCharCount(document.getElementById('name'), document.getElementById('name-char-count'), 50);
                 updateCharCount(document.getElementById('email'), document.getElementById('email-char-count'), 50);
                 updateCharCount(document.getElementById('bio'), document.getElementById('bio-char-count'), 200);
-                
+
                 alert('Cancel button clicked! All fields cleared.');
             });
-        </script>
-        
+        </script> -->
+
 </body>
+
 </html>
