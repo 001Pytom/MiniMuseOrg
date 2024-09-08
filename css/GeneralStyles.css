@@ -148,7 +148,11 @@ aside {
 }
 
 .home-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   flex: 1;
+  padding: 1rem;
 }
 
 .home-top {
@@ -211,7 +215,8 @@ aside {
   padding-right: 6rem;
 }
 
-.text h1 {
+.text h1,
+.feeds-right h1 {
   font-weight: 600;
   font-size: 24px;
   justify-self: center;
@@ -220,4 +225,144 @@ aside {
 
 .start-blog {
   margin-top: 24px;
+}
+
+.divider-line {
+  width: 100%;
+  border: 0.5px solid #d9d9d9;
+}
+
+.feeds-left {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.feed-profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed-img {
+  width: 100%;
+  min-height: 190px;
+}
+
+.feeds-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-icon-left {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feeds-right {
+  max-width: 349px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.small-btn-transparent {
+  background-color: transparent;
+  border: 1px solid #9747ff;
+  color: #532abe;
+}
+
+.transparent-btn {
+  text-align: center;
+}
+
+.mid-btn {
+  padding: 10px 30px;
+}
+
+.follow {
+  padding-right: 3rem;
+  gap: 16px;
+}
+
+.feeds-right-2 {
+  gap: 18px;
+}
+
+.text-sm {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.text-xs {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.pinned {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pinned-container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pinned-follow {
+  background: #ddd2ec;
+  border-radius: 8px;
+  padding: 0.7rem;
+  gap: 0.5rem;
+}
+
+.pinned-follow-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pinned-f-l {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.pinned-f-l h3 {
+  font-weight: 500;
+}
+
+.pinned-down {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pinned-down h3 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.verified {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
