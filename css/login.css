@@ -155,6 +155,7 @@ body {
 }
 
 .form-area input {
+  background-color: transparent;
   border: none;
   outline: none;
   padding: 10px;
@@ -162,6 +163,7 @@ body {
   font-size: 12px;
   font-weight: 500;
 }
+
 
 button {
   background-color: #9a68e1;
@@ -175,9 +177,15 @@ button {
   margin: 8px 0;
 }
 
+.link{
+  text-decoration: none;
+  color: #fff;
+}
+
 button:hover {
   background-color: purple;
-}
+} 
+
 
 fieldset {
   border-bottom: none;
@@ -195,16 +203,30 @@ fieldset {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
 .logins {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.logins img {
+.logins-img{
+  width: 100%;
+  height: auto;
+}
+
+.google:hover,
+.facebook:hover{
+  opacity: 0.8;
+}
+
+
+/* .logins img {
   width: 30px;
   height: auto;
   margin: 0 10px;
-}
+}  */
 
 .account-link {
   color: #0a0018;
