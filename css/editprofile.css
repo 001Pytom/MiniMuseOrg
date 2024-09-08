@@ -472,3 +472,12 @@ aside {
 .mid-btn {
   padding: 10px 30px;
 }
+
+.edit-aside {
+  max-width: 356px;
+  width: 100%;
+  height: 1025px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
