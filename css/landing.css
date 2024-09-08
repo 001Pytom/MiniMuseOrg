@@ -81,14 +81,17 @@ ul li a {
 .container {
   width: 100%;
   min-height: 100vh;
-  background-color: #582e94;
-  background-image: url("../images/bgc-overlay.png");
+  background: linear-gradient(to bottom, #582e94, #9a68e1),
+    url("../images/bgc-overlay.png");
+  /* background-image: url("../images/bgc-overlay.png"); */
+  /* background-color: linear-gradient(to bottom, #582e94, #9a68e1); */
   background-position: center;
   background-size: cover;
   color: #fff;
   display: flex;
   align-items: center;
   position: absolute;
+  background-blend-mode: overlay;
 }
 
 .blob-top-left {
@@ -97,8 +100,8 @@ ul li a {
 }
 
 .main-content {
-  /* width: 100%;
-  max-width: 750px; */
+  width: 100%;
+  max-width: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +109,7 @@ ul li a {
 }
 .main-content h2 {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 2.5vw;
   text-align: center;
   line-height: 70px;
 }
