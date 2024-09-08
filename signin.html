@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniMuse Sign up</title>
-    <link rel="stylesheet" href="css/signup.css">
+    <title>MiniMuse Sign in</title>
+    <link rel="stylesheet" href="css/signin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -52,7 +52,9 @@
                     <span class="icon"><img class="image" src="./images/password.png" alt="Password icon"></span>
                     <input type="password" id="password" placeholder=" Password" />
                 </div>
-                <a href="index.html">Log in</a>
+                <button class="button">
+                    <a  class="link"  href="#">Log in</a>
+                </button>
             </form>
             <fieldset>
                 <legend>
@@ -63,8 +65,14 @@
 
 
             <div class="logins">
-                <img src="./images/google-logo.png" alt="Google logo">
-                <img src="./images/facebook-logo.png" alt="Facebook logo">
+                <a href="YOUR_GOOGLE_OAUTH_URL" class="logins-google">
+                    <img src="./images/google-logo.png" alt="Google logo"> 
+                </a>
+                <a href="YOUR_FACEBOOK_OAUTH_URL" class="logins-facebook">
+                    <img src="./images/facebook-logo.png" alt="Facebook logo">
+                </a> 
+                <!-- <img src="./images/google-logo.png" alt="Google logo">
+                <img src="./images/facebook-logo.png" alt="Facebook logo">  -->
             </div>
 
             <a href="#" class="forget-password">Forgot password?</a>
