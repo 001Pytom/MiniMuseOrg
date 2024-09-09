@@ -36,11 +36,11 @@
                     <li><a href="profile.html"><span><img src="images/profile-circle.png"
                                     alt="profile-circle"></span>Profile</a>
                     </li>
-                    <li><a href="home.html"><span><img src="images/add-square.png" alt="add-square"></span>Create</a>
+                    <li><a href="#"><span><img src="images/add-square.png" alt="add-square"></span>Create</a>
                     </li>
-                    <li><a href="#"><span><img src="images/notification-bing.png"
-                                    alt="notification"></span>Notification</a>
+                    <li><a href="#"><span><img src="images/notification-bing.png" alt="add-square"></span>Notification</a>
                     </li>
+                    
                     <li><a href="#"><span><img src="images/🦆 icon _headphones_.png" alt="headPhones"></span>Support</a>
                     </li>
                     <li><a href="#"><span><img src="images/Group 35.png" alt="setting"></span>Settings</a></li>
@@ -62,48 +62,46 @@
         </aside>
         <main class="all-container">
             <div class="background-wrapper">
-                <div class="background-container">
-                    <div class="profile-info">
-                        <div class="profile-header">
-                            <div class="profile-text">
-                                <h1>Profile Information</h1>
-                            </div>
-
-                            <div class="profile-pic-container">
-                                <div class="profile-pic">
-                                    <img src="/images/profile-pics.png" alt=" profile picture">
-                                </div>
-                                <button class="edit-pics" onclick="document.getElementById('file-input').click();">
-                                    <img src="/images/profile-edit.png" alt="camera edit icon">
-                                </button>
-                                <input type="file" id="file-input" style="display: none;"
-                                    onchange="previewImage(event)">
-                            </div>
+                <!-- <div class="background-container"> -->
+                <div class="profile-info">
+                    <div class="profile-header">
+                        <div class="profile-text">
+                            <h1>Profile Information</h1>
                         </div>
 
-
-
-
-                        <div class="profile-details">
-                            <label for="name">Name</label>
-                            <input class="input-field" type="text" id="name" placeholder="Tolulope Johnson">
-                            <span class="char-count">0/50</span>
-
-                            <label for="email">Email</label>
-                            <input class="input-field" type="email" id="email"
-                                placeholder="tolulopejohnson001@gmail.com">
-                            <span class="char-count">0/50</span>
-
-                            <label for="bio">Short Bio</label>
-                            <textarea class="input-field" id="bio" placeholder="Tell us about yourself"></textarea>
-                            <span class="char-count">0/200</span>
-                        </div>
-                        <div class="profile-buttons">
-                            <a href="profile.html"> <button class="btn save">Save</button></a>
-                            <a href="profile.html"><button class="btn cancel">Cancel</button></a>
+                        <div class="profile-pic-container">
+                            <div class="profile-pic">
+                                <img src="/images/profile-pics.png" alt=" profile picture">
+                            </div>
+                            <button class="edit-pics" onclick="document.getElementById('file-input').click();">
+                                <img src="/images/profile-edit.png" alt="camera edit icon">
+                            </button>
+                            <input type="file" id="file-input" style="display: none;" onchange="previewImage(event)">
                         </div>
                     </div>
+
+
+
+
+                    <div class="profile-details">
+                        <label for="name">Name</label>
+                        <input class="input-field" type="text" id="name" placeholder="Tolulope Johnson">
+                        <span class="char-count">0/50</span>
+
+                        <label for="email">Email</label>
+                        <input class="input-field" type="email" id="email" placeholder="tolulopejohnson001@gmail.com">
+                        <span class="char-count">0/50</span>
+
+                        <label for="bio">Short Bio</label>
+                        <textarea class="input-field" id="bio" placeholder="Tell us about yourself"></textarea>
+                        <span class="char-count">0/200</span>
+                    </div>
+                    <div class="profile-buttons">
+                        <a href="profile.html"> <button class="btn save">Save</button></a>
+                        <a href="profile.html"><button class="btn cancel">Cancel</button></a>
+                    </div>
                 </div>
+                <!-- </div> -->
             </div>
         </main>
         <div class="edit-aside">

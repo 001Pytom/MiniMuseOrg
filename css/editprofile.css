@@ -165,20 +165,20 @@ aside {
 .background-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 120px;
   background-color: rgba(240, 229, 255, 1);
-  width: 100%;
+  width: 55vw;
   height: 1030px;
-}
-
-.background-container {
-  width: 821px;
-  height: 512px;
   background-image: url(../images/Minimuse-pics.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
+/* 
+.background-container {
+  width: 821px;
+  height: 512px;
+} */
 
 .profile-info {
   display: flex;
@@ -189,10 +189,6 @@ aside {
   width: 470px;
   height: 742px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  gap: 30px;
-  top: 168px;
-  left: 455px;
 }
 
 .profile-header {
