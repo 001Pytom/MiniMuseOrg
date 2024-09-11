@@ -1,1 +1,1 @@
-This project is for SkillPaddy internship work. Abidat and Faatihat worked on it
+SkillPaddy Internship project

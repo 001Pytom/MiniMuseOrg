@@ -159,6 +159,7 @@ aside {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  gap: 3vw;
 }
 .post {
   width: 100%;
@@ -211,8 +212,12 @@ aside {
   display: none;
 }
 
+.home-top-first {
+  /* justify-content: space-around; */
+}
+
 .text {
-  padding-right: 6rem;
+  margin-right: 0.3rem;
 }
 
 .text h1,

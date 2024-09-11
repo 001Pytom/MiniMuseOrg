@@ -10,6 +10,9 @@
   gap: 2rem;
   flex: 1;
   padding: 1rem;
+  width: 100%;
+  max-width: 822px;
+  margin-right: 2vw;
 }
 
 .main-prof {
@@ -125,6 +128,10 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.post-child p {
+  margin-bottom: 2rem;
 }
 
 .category-content {
