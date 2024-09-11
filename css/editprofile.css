@@ -61,6 +61,7 @@ nav {
 
 aside {
   flex: 261px;
+  width: 100%;
   max-width: 261px;
   height: 1025px;
   display: flex;
@@ -72,12 +73,12 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 8rem;
-  padding: 0px 1rem;
+  padding: 0px 0.5rem;
   margin-top: 40px;
 }
 
 .up-options {
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -296,6 +297,8 @@ aside {
   justify-content: flex-end;
   gap: 15px;
   padding-right: 15px;
+  margin-top: 3rem;
+  margin-right: 1rem;
 }
 
 .btn {
@@ -475,4 +478,16 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.right-nav img,
+.up-options img {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+  object-fit: contain; /* Ensures the image is contained within its element */
+}
+
+.notification-icon {
+  display: inline-block;
+  vertical-align: middle; /* Aligns the icon with text */
 }
